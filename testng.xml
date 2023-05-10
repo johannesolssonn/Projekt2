@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Playground.lambdatest suite">
+    <test name="Playground.lambdatest test">
+        <classes>
+            <class name="org.example.Login"/>
+            <class name="org.example.TestSetup"/>
+            <class name="org.example.SuiteSetup">
+                <methods>
+                    <include name="testMethod1" />
+                    <include name="testMethod2"/>
+                </methods>
+            </class>
+            <class name="org.example.Login">
+                <methods>
+                    <include name="testMethod1" /> <!-- Ändra namn-->
+                    <include name="testMethod2"/> <!-- Ändra namn detta är en kommentar-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
