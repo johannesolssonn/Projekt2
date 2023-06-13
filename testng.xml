@@ -3,20 +3,10 @@
 <suite name="Playground.lambdatest suite">
     <test name="Playground.lambdatest test">
         <classes>
+            <class name="org.example.Buy"/>
+            <class name="org.example.LogOut"/>
+            <class name="org.example.Register"/>
             <class name="org.example.Login"/>
-            <class name="org.example.TestSetup"/>
-            <class name="org.example.SuiteSetup">
-                <methods>
-                    <include name="testMethod1" />
-                    <include name="testMethod2"/>
-                </methods>
-            </class>
-            <class name="org.example.Login">
-                <methods>
-                    <include name="testMethod1" /> <!-- Ändra namn-->
-                    <include name="testMethod2"/> <!-- Ändra namn detta är en kommentar-->
-                </methods>
-            </class>
         </classes>
     </test>
 </suite>

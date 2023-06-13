@@ -46,7 +46,7 @@
                 <configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>
-                            testng-lambdaplayground.xml
+                            testng.xml
                         </suiteXmlFile>
                     </suiteXmlFiles>
                     <argLine>

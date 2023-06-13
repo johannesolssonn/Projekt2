@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5f8cce1-6cf7-40b0-aa26-fcb57b383c95" name="Changes" comment="FirstCommit" />
+    <list default="true" id="f5f8cce1-6cf7-40b0-aa26-fcb57b383c95" name="Changes" comment="FirstCommit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Buy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/LogOut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SuiteSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TestSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TestSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,17 +39,66 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.Register">
+}</component>
+  <component name="RunManager" selected="TestNG.Buy">
+    <configuration name="testautomation [clean,test...]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="test" />
+                <option value="-DQASE_ENABLE=true" />
+                <option value="-DQASE_PROJECT_CODE=IM" />
+                <option value="-DQASE_RUN_NAME=NEW_RUN_NAME" />
+                <option value="-DQASE_RUN_DESCRIPTION=NEW_RUN_DESCRIPTION" />
+                <option value="-DQASE_API_TOKEN=a124f1cd14ab081e89f48814323160572228984af68e872f1b79690a4b522e92" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Buy" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Playground.Lambdatest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Buy" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/johan/IdeaProjects/Playground.Lambdatest/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Playground.Lambdatest" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -50,7 +109,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login.LogInTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LogOut" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Playground.Lambdatest" />
       <extension name="coverage">
         <pattern>
@@ -59,25 +118,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Login" />
-      <option name="METHOD_NAME" value="LogInTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Register" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Playground.Lambdatest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Register" />
+      <option name="MAIN_CLASS_NAME" value="org.example.LogOut" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -85,7 +126,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Register.LogInTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LogOut.LogOutTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Playground.Lambdatest" />
       <extension name="coverage">
         <pattern>
@@ -94,8 +135,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Register" />
-      <option name="METHOD_NAME" value="LogInTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.LogOut" />
+      <option name="METHOD_NAME" value="LogOutTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -103,12 +144,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Login.LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Playground.Lambdatest" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Login" />
+      <option name="METHOD_NAME" value="LoginTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.testautomation [clean,test...]" />
+      <item itemvalue="TestNG.Buy" />
+      <item itemvalue="TestNG.LogOut" />
+      <item itemvalue="TestNG.C:/Users/johan/IdeaProjects/Playground.Lambdatest/testng.xml" />
+      <item itemvalue="TestNG.LogOut.LogOutTest" />
+      <item itemvalue="TestNG.Login.LoginTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Register" />
-        <item itemvalue="TestNG.Register.LogInTest" />
-        <item itemvalue="TestNG.Login.LogInTest" />
+        <item itemvalue="TestNG.Buy" />
         <item itemvalue="TestNG.C:/Users/johan/IdeaProjects/Playground.Lambdatest/testng.xml" />
+        <item itemvalue="TestNG.LogOut" />
+        <item itemvalue="TestNG.LogOut.LogOutTest" />
+        <item itemvalue="TestNG.Login.LoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +205,13 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1683714451111</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="FirstCommit">
+      <created>1683714565610</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1683714565610</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,5 +228,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="FirstCommit" />
     <option name="LAST_COMMIT_MESSAGE" value="FirstCommit" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Playground_Lambdatest$Buy.ic" NAME="Buy Coverage Results" MODIFIED="1686652877442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
   </component>
 </project>

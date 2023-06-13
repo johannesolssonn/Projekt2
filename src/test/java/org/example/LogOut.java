@@ -6,10 +6,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.Test;
 
-public class Login extends TestSetup{
+public class LogOut extends TestSetup{
+
     @Test
-    @QaseTitle("Login")
-    public void LoginTest() throws InterruptedException{
+    @QaseTitle("LogOut")
+    public void LogOutTest() throws InterruptedException{
         driver.get(baseUrl);
 
         WebElement selectMyAccount = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#widget-navbar-217834 > ul > li:nth-child(6) > a")));
@@ -23,5 +24,10 @@ public class Login extends TestSetup{
 
         WebElement selectLogin = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("input[value='Login']")));
         selectLogin.click();
+
+        WebElement selectLogout = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a:nth-child(14)")));
+        selectLogout.click();
+
+
     }
 }
